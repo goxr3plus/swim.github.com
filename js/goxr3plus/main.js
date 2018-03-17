@@ -1,5 +1,5 @@
 //var apiRoot = "https://api.github.com/";
-var version = "96";
+var version = "97";
 var downloadURL = "https://github.com/goxr3plus/XR3Player/releases/download/V3."+version+"/XR3Player.Update."+version+".zip";
 
 
