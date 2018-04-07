@@ -1,14 +1,15 @@
 //var apiRoot = "https://api.github.com/";
-var version = "97";
+var version = "98";
 var downloadURL = "https://github.com/goxr3plus/XR3Player/releases/download/V3."+version+"/XR3Player.Update."+version+".zip";
 
 
 function appendDownloadURLS() {
-    
+
     //console.log(downloadURL);
+    $("#version").html(version);
     $(".downloadXR3Player").attr("href", downloadURL);
     $("#versionHeader").html("<strong>Portable ZIP Version (XR3Player Update " + version + ")</strong>");
-    
+
 }
 
 //// Return a HTTP query variable
