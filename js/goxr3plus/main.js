@@ -6,9 +6,9 @@ var downloadURL = "https://github.com/goxr3plus/XR3Player/releases/download/V3."
 function appendDownloadURLS() {
 
     //console.log(downloadURL);
-    $("#version").html(version);
+    $("#version").html(version+" (07/04/2018)");
     $(".downloadXR3Player").attr("href", downloadURL);
-    $("#versionHeader").html("<strong>Portable ZIP Version (XR3Player Update " + version + ")</strong>");
+    $("#versionHeader").html("<strong>Portable ZIP Version (XR3Player V." + version + ")</strong>");
 
 }
 
