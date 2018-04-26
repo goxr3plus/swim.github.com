@@ -1,13 +1,13 @@
 //var apiRoot = "https://api.github.com/";
-var version = "99";
-var downloadURL = "https://github.com/goxr3plus/XR3Player/releases/download/V3.99/XR3Player_Installer.exe";
+var version = "100";
+var downloadURL = "https://github.com/goxr3plus/XR3Player/releases/download/V3.100/XR3Player_Installer.exe";
 // "https://github.com/goxr3plus/XR3Player/releases/download/V3."+version+"/XR3Player.Update."+version+".zip";
 
 
 function appendDownloadURLS() {
 
     //console.log(downloadURL);
-    $("#version").html(version+" (13/04/2018)");
+    $("#version").html(version+" (27/04/2018)");
     $(".downloadXR3Player").attr("href", downloadURL);
     $("#versionHeader").html("<strong>Installers for (XR3Player V." + version + ")</strong>");
 
