@@ -6,7 +6,7 @@ function findLatestReleaseURL() {
     console.log(version);
     var downloadURL = "https://github.com/goxr3plus/XR3Player/releases/download/" + version + "/XR3Player_Installer.exe";
 
-    $("#version").html(version + " (29/06/2018)");
+    $("#version").html(version + " (21/07/2018)");
     $(".downloadXR3Player").attr("href", downloadURL);
     $("#versionHeader").html("<strong>Installers for (XR3Player " + version + ")</strong>");
   //  console.log("Version : " + version + " Download URL : " + downloadURL);
