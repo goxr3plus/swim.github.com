@@ -2,7 +2,7 @@ function findLatestReleaseURL() {
   //Get the version info from github
   $.getJSON("https://api.github.com/repos/goxr3plus/XR3Player/releases/latest").done(function(json) {
     //console.log(json);
-    var version = json.name;
+    var version = json.tag_name;
     //console.log(version);
     var date = json.published_at;
     //console.log(date.substring(0,10));
